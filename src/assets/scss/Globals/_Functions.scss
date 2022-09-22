@@ -1,0 +1,47 @@
+
+// Centre a block element
+
+@mixin center--auto {
+  margin: { 
+      
+      left: auto;
+      right: auto;
+  }
+}
+
+@mixin border($color, $width, $type) {
+    border: $width $type $color;
+}
+  
+@mixin borderRadius($borderRadius) {
+  border-radius: $borderRadius;
+}
+@mixin margin($marginTop, $marginRight , $marginBottom , $marginLeft ) {
+  margin-top: $marginTop;
+  margin-right: $marginRight;
+  margin-bottom: $marginBottom;
+  margin-left: $marginLeft;
+}
+@mixin padding($paddingTop, $paddingRight , $paddingBottom , $paddingLeft ) {
+  padding-top: $paddingTop;
+  padding-right: $paddingRight;
+  padding-bottom: $paddingBottom;
+  padding-left: $paddingleft;
+}
+ 
+
+// Placeholder
+
+@mixin input-placeholder {
+  &.placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &:-ms-input-placeholder { @content; }
+  &::-webkit-input-placeholder { @content; }
+}
+
+// Hide from browsers
+@mixin hidden {
+	display: none;
+	
+}
