@@ -1,6 +1,6 @@
-@use "../../abstract/color" as *;
-@use "../../abstract/font" as *;
-@use "../../abstract/mixins" as *;
+@use "../../Globals/color" as color;
+@use "../../Globals/font" as font;
+@use "../../Globals/mixin";
 
 .footer-infos {
   position: fixed;

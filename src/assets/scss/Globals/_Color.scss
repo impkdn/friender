@@ -1,38 +1,20 @@
+$background-white: #ffffff;
+$background-blue: #605BFF;
+$background-active: #FCFDFF;
+$background-input: #FCFDFF;
+
+$text-blue:#1F3E79;  /*use for header text color, links*/
+$text-light-blue: #6B7499; /*use for text inside all text*/
+$text-input: #030229; 
+$text-light-gray: #9A9AA9; /*use for footer text*/
+$box-shadow: rgba(0, 0, 0, 0.1);
 
 
-// primary color for text with h1,h2,h3 etc
-$headerTextColor: #1F3E79;
+// Border
 
-// content text color
-$textColor: #4C4C69;
+$border-active: #605BFF;
+$border-primary: #FCFDFF;
 
-// Primary color for Links and checkbox
-$linkTextColor: #6B7499;
+// Placeholder
 
-// Button background Primary
-$btnBackground: #605BFF;
-
-// Button on hover
-$btnHover: #7d79ff;
-
-// Button text Primary
-$btnTextColor: #FFFFFF;
-
-// Footer 
-$footerTextColor: #9A9AA9;
-$footerLinkColor: #605BFF;
-
-// Label
-$labelColor: #6B7499;
-
-// Background Color
-$bodyColor: #fff;
-$inputBackground: rgba(96, 91, 255, 0.05);
-
-
-
-// Border Color
-$borderColor: #BAC4D8; 
-
-// Border Color hover
-$borderColorHover: #605BFF; 
+$placeholder-light: #BAC4D8;
