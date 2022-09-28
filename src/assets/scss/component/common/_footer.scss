@@ -1,0 +1,22 @@
+@use "../../Globals/color" as color;
+@use "../../Globals/font" as font;
+@use "../../Globals/mixin";
+
+.footer-infos {
+  position: fixed;
+  font-family: $fontFamily;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  p{
+    font-size: $smallFontSize;
+    color: $footerTextColor;
+    font-weight: $smallFontWeight;
+    a {
+      color: $footerLinkTextColor;
+      text-decoration:none;
+    }
+  }
+}
+
