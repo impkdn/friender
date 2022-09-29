@@ -1,41 +1,41 @@
-@use "../../abstract/color" as *;
-@use "../../abstract/font" as *;
-@use  "../../abstract/mixins" as *;
+// @use "../../abstract/color" as *;
+// @use "../../abstract/font" as *;
+// @use  "../../abstract/mixins" as *;
 
-.element-wraper {
-  width: 100%;
-  display: block;
-  position: relative;
-  margin-top: 20px;
-    label {
-      font-size: $smallFontSize;
-      color: $textColor;
-    }
-    .forget-wraper {
-      float: right;
-      a {
-        font-size: $footerFontSize;
-        text-align: right;
-        color: $labelColor;
-        text-decoration: none;
-      }
-    }
+// .element-wraper {
+//   width: 100%;
+//   display: block;
+//   position: relative;
+//   margin-top: 20px;
+//     label {
+//       font-size: $smallFontSize;
+//       color: $textColor;
+//     }
+//     .forget-wraper {
+//       float: right;
+//       a {
+//         font-size: $footerFontSize;
+//         text-align: right;
+//         color: $labelColor;
+//         text-decoration: none;
+//       }
+//     }
   
-  .input-field {
-    width: 100%;
-    display: block;
-    margin-top: 10px;
-    .form-group {
-      width: 100%;
-      padding: 12px 20px;
-      background: $inputBackground;
-      @include borderRadius(5px);
-      @include bordered($inputBackground, 1px, solid);
-      &:active, &:focus, &:focus-within, &:hover, &:visited, &:focus-visible, &:target  {
-        @include bordered($buttonBackground, 1px, solid);
-      }
-    }
+//   .input-field {
+//     width: 100%;
+//     display: block;
+//     margin-top: 10px;
+//     .form-group {
+//       width: 100%;
+//       padding: 12px 20px;
+//       background: $inputBackground;
+//       @include borderRadius(5px);
+//       @include bordered($inputBackground, 1px, solid);
+//       &:active, &:focus, &:focus-within, &:hover, &:visited, &:focus-visible, &:target  {
+//         @include bordered($buttonBackground, 1px, solid);
+//       }
+//     }
     
-  }
-}
+//   }
+// }
 

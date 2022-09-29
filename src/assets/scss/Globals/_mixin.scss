@@ -1,5 +1,5 @@
-@use './color';
-@use './font';
+@use './color' as color;
+@use './font' as font;
 @use "./variables";
 @use './functions';
 
@@ -46,8 +46,8 @@
   padding-bottom: $paddingBottom;
   padding-left: $paddingleft;
 }
-@mixin  box-shadow ($x-offset, $y-offset, $blur, $color) {
-  box-shadow : $x-offset $y-offset $blur $color;
+@mixin  box-shadow ($x-offset, $y-offset, $blur) {
+  box-shadow : $x-offset $y-offset $blur color.$box-shadow;
 }
 
 // border radius

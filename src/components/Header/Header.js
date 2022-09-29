@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/images/Group 67.png";
+import logo from "../../assets/Image/logosvg.svg";
 import headerClass from "./Header.module.scss";
 
 const Header = (props) => {
